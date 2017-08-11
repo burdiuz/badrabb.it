@@ -1,0 +1,5 @@
+<localized-section label="products">
+  <ng-container *ngFor="let item of products; even as isEven">
+    <localized-product-card [product]="item" [position]="getCardPosition(isEven)"></localized-product-card>
+  </ng-container>
+</localized-section>

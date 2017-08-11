@@ -1,0 +1,28 @@
+{
+  "@@language": {
+    "en-US": {
+      "abbr": "EN",
+      "title": "English",
+      "icon": "/assets/flags/us.svg"
+    },
+    "ru-RU": {
+      "abbr": "РУС",
+      "title": "Русский",
+      "icon": "/assets/flags/ru.svg"
+    }
+  },
+  "@@section": {
+    "products": {
+      "title": "Продукты",
+      "link": "Продукты"
+    },
+    "wheretobuy": {
+      "title": "Где купить?",
+      "link": "Где купить?"
+    },
+    "contacts": {
+      "title": "Контакты",
+      "link": "Контакты"
+    }
+  }
+}

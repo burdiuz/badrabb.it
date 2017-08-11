@@ -1,0 +1,23 @@
+{
+	"id": 3,
+	"promo": {
+		"iconUrl": "/assets/products/clay_strong_hold_01.jpg",
+		"originalUrl": "/assets/products/clay_strong_hold_01.jpg"
+	},
+	"images": [
+		{
+			"iconUrl": "/assets/products/clay_strong_hold_01.jpg",
+			"originalUrl": "/assets/products/clay_strong_hold_01.jpg"
+		}
+	],
+	"en-US": {
+		"type": "CLAY",
+		"subType": "STRONG HOLD",
+    "description": "<p>Clay for hair Strong hold has a strong mobile fixation with matting effect. This product is convenient both in work and at home. It can be used for a very long time.</p>"
+	},
+	"ru-RU": {
+		"type": "CLAY",
+		"subType": "STRONG HOLD",
+    "description": "<p>Clay for hair Strong hold has a strong mobile fixation with matting effect. This product is convenient both in work and at home. It can be used for a very long time.</p>"
+	}
+}

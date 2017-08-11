@@ -1,0 +1,23 @@
+{
+	"id": 1,
+	"promo": {
+		"iconUrl": "/assets/products/shampoo_explosive_orange_01.jpg",
+		"originalUrl": "/assets/products/shampoo_explosive_orange_01.jpg"
+	},
+	"images": [
+		{
+			"iconUrl": "/assets/products/shampoo_explosive_orange_01.jpg",
+			"originalUrl": "/assets/products/shampoo_explosive_orange_01.jpg"
+		}
+	],
+	"en-US": {
+		"type": "SHAMPOO",
+		"subType": "EXPLOSIVE ORANGE Classic",
+    "description": "<p>Shampoo Explosive orange will cover you with a wave of pleasant aromas and freshness during washing your head. Created specifically for men, given their needs and desires, it is very universal and easy to transport. The main thing, after use, do not leave it on a damp surface!</p>"
+	},
+	"ru-RU": {
+		"type": "SHAMPOO",
+		"subType": "EXPLOSIVE ORANGE Classic",
+    "description": "<p>Shampoo Explosive orange will cover you with a wave of pleasant aromas and freshness during washing your head. Created specifically for men, given their needs and desires, it is very universal and easy to transport. The main thing, after use, do not leave it on a damp surface!</p>"
+	}
+}

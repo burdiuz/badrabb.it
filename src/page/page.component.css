@@ -1,0 +1,23 @@
+@media screen and (min-width: 1280px) {
+  .page {
+    margin: 2rem 10rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .page {
+    margin: 2rem 5rem;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .page {
+    margin: 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .page {
+    margin: 0;
+  }
+}

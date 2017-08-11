@@ -1,0 +1,2 @@
+"./node_modules/.bin/ngc" --i18nFile=./src/locale/messages.en.xlf --locale=en --i18nFormat=xlf --missingTranslation=error
+"./node_modules/.bin/ngc" --i18nFile=./src/locale/messages.ru.xlf --locale=ru --i18nFormat=xlf --missingTranslation=error

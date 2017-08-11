@@ -1,0 +1,14 @@
+<md-card
+  [ngClass]="['product-card', position]"
+  [ngStyle]="{'background-image': backgroundImageUrl}">
+  <div class="content">
+    <div class="description">
+      <div class="headline">
+        <h2>{{type}}</h2>
+        <h3 *ngIf="subType">{{subType}}</h3>
+      </div>
+      <div class="textline" [innerHTML]="description"></div>
+      <ng-content></ng-content>
+    </div>
+  </div>
+</md-card>

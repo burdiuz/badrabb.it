@@ -1,0 +1,23 @@
+{
+	"id": 2,
+	"promo": {
+		"iconUrl": "/assets/products/shaving_soap_01.jpg",
+		"originalUrl": "/assets/products/shaving_soap_01.jpg"
+	},
+	"images": [
+		{
+			"iconUrl": "/assets/products/shaving_soap_01.jpg",
+			"originalUrl": "/assets/products/shaving_soap_01.jpg"
+		}
+	],
+	"en-US": {
+		"type": "SHAVING SOAP",
+		"subType": "",
+    "description": "<p>This product is created together with the shaving masters. Its purpose is to moisturize the skin during shaving and to ensure an excellent glide of the blade due to its versatility.</p><p>Very easy to use at home!</p>"
+	},
+	"ru-RU": {
+		"type": "SHAVING SOAP",
+		"subType": "",
+    "description": "<p>This product is created together with the shaving masters. Its purpose is to moisturize the skin during shaving and to ensure an excellent glide of the blade due to its versatility.</p><p>Very easy to use at home!</p>"
+	}
+}

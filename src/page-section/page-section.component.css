@@ -1,0 +1,7 @@
+div.page-section {
+  margin: 2rem 0 4rem 0;
+}
+
+div.page-section > h1 {
+  margin-bottom: 2rem;
+}
