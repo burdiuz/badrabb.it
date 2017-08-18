@@ -29,23 +29,28 @@
   "@@contacts": {
     "instagram": {
       "title": "Instagram",
-      "content": "https://www.instagram.com/bad.rabbit.official/"
+      "content": "instagram.com/bad.rabbit.official",
+      "href": "https://www.instagram.com/bad.rabbit.official/"
     },
     "facebook": {
       "title": "Facebook",
-      "content": "https://www.facebook.com/bad.rabbit.official/"
+      "content": "facebook.com/bad.rabbit.official",
+      "href": "https://www.facebook.com/bad.rabbit.official/"
     },
     "twitter": {
       "title": "Twitter",
-      "content": "https://twitter.com/BadRabbitNL"
+      "content": "twitter.com/BadRabbitNL",
+      "href": "https://twitter.com/BadRabbitNL/"
     },
     "email": {
       "title": "Email",
-      "content": "bad.rabbit.cosmetic@gmail.com"
+      "content": "bad.rabbit.cosmetic@gmail.com",
+      "href": "mailto:bad.rabbit.cosmetic@gmail.com"
     },
     "phone": {
       "title": "Телефон",
-      "content": "+380686906833"
+      "content": "+380686906833",
+      "href": "callto:+380686906833"
     }
   }
 }
