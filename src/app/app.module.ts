@@ -27,6 +27,7 @@ import {ProductsSectionComponent} from './products-section/products-section.comp
 import {LocalizedProductCardComponent} from './localized-product-card/localized-product-card.component';
 import {ProductsService} from '../products.service';
 import { PageSectionComponent } from '../page-section/page-section.component';
+import { ContactsSectionComponent } from './contacts-section/contacts-section.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -54,6 +55,7 @@ const TranslateModuleImpl = TranslateModule.forRoot({
     ProductsSectionComponent,
     LocalizedProductCardComponent,
     PageSectionComponent,
+    ContactsSectionComponent,
   ],
   imports: [
     BrowserModule,

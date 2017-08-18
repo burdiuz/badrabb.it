@@ -25,5 +25,27 @@
       "title": "Контакты",
       "link": "Контакты"
     }
+  },
+  "@@contacts": {
+    "instagram": {
+      "title": "Instagram",
+      "content": "https://www.instagram.com/bad.rabbit.official/"
+    },
+    "facebook": {
+      "title": "Facebook",
+      "content": "https://www.facebook.com/bad.rabbit.official/"
+    },
+    "twitter": {
+      "title": "Twitter",
+      "content": "https://twitter.com/BadRabbitNL"
+    },
+    "email": {
+      "title": "Email",
+      "content": "bad.rabbit.cosmetic@gmail.com"
+    },
+    "phone": {
+      "title": "Телефон",
+      "content": "+380686906833"
+    }
   }
 }

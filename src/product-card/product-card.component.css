@@ -16,6 +16,7 @@
     background-color: #2a2a2a;
     padding: 20px;
     width: 35%;
+	transition: all 0.25s linear;
   }
 }
 

@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<page>\n  <toolbar></toolbar>\n\n  <products-section></products-section>\n\n  <localized-section label=\"wheretobuy\">\n    <h5 translate style=\"margin-bottom: 5rem;\">@@section.coming</h5>\n  </localized-section>\n\n  <localized-section label=\"contacts\">\n    <h5 translate style=\"margin-bottom: 5rem;\">@@section.coming</h5>\n  </localized-section>\n</page>\n"
+module.exports = "<page>\n  <toolbar></toolbar>\n\n  <products-section></products-section>\n\n  <localized-section label=\"wheretobuy\">\n    <h5 translate style=\"margin-bottom: 5rem;\">@@section.coming</h5>\n  </localized-section>\n\n  <contacts-section></contacts-section>\n</page>\n"
 
 /***/ }),
 
@@ -109,6 +109,7 @@ var _a;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__localized_product_card_localized_product_card_component__ = __webpack_require__("../../../../../src/app/localized-product-card/localized-product-card.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__products_service__ = __webpack_require__("../../../../../src/products.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__page_section_page_section_component__ = __webpack_require__("../../../../../src/page-section/page-section.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__contacts_section_contacts_section_component__ = __webpack_require__("../../../../../src/app/contacts-section/contacts-section.component.ts");
 /* unused harmony export HttpLoaderFactory */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -117,6 +118,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -168,6 +170,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_17__products_section_products_section_component__["a" /* ProductsSectionComponent */],
             __WEBPACK_IMPORTED_MODULE_18__localized_product_card_localized_product_card_component__["a" /* LocalizedProductCardComponent */],
             __WEBPACK_IMPORTED_MODULE_20__page_section_page_section_component__["a" /* PageSectionComponent */],
+            __WEBPACK_IMPORTED_MODULE_21__contacts_section_contacts_section_component__["a" /* ContactsSectionComponent */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -187,6 +190,78 @@ AppModule = __decorate([
 ], AppModule);
 
 //# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/contacts-section/contacts-section.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".contact-link {\r\n  margin-bottom: 1rem;\r\n  text-align: left;\r\n}\r\n\r\n.contact-link a,.contact-link a:visited {\r\n  font-size: 0.8rem;\r\n  color: #fff;\r\n  text-decoration: underline;\r\n  -webkit-text-decoration-color: #666;\r\n          text-decoration-color: #666;\r\n  font-weight: 300;\r\n  margin-left: 1rem;\r\n}\r\n\r\n.contact-link a:hover {\r\n  -webkit-text-decoration-color: #ccc;\r\n          text-decoration-color: #ccc;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/contacts-section/contacts-section.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<localized-section label=\"contacts\">\n  <ng-container *ngFor=\"let type of contacts\">\n    <div class=\"contact-link\">\n      <h5 [translate]=\"getContactTitleMark(type)\"></h5>\n      <a [href]=\"getContactHrefMark(type) | translate\" [translate]=\"getContactContentMark(type)\"></a>\n    </div>\n  </ng-container>\n</localized-section>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/contacts-section/contacts-section.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactsSectionComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CONTACTS = ['twitter', 'facebook', 'instagram', 'email', 'phone'];
+var ContactsSectionComponent = (function () {
+    function ContactsSectionComponent() {
+        this.contacts = CONTACTS.slice();
+    }
+    ContactsSectionComponent.prototype.ngOnInit = function () {
+    };
+    ContactsSectionComponent.prototype.getContactTitleMark = function (type) {
+        return "@@contacts." + type + ".title";
+    };
+    ContactsSectionComponent.prototype.getContactHrefMark = function (type) {
+        return "@@contacts." + type + ".href";
+    };
+    ContactsSectionComponent.prototype.getContactContentMark = function (type) {
+        return "@@contacts." + type + ".content";
+    };
+    return ContactsSectionComponent;
+}());
+ContactsSectionComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'contacts-section',
+        template: __webpack_require__("../../../../../src/app/contacts-section/contacts-section.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/contacts-section/contacts-section.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], ContactsSectionComponent);
+
+//# sourceMappingURL=contacts-section.component.js.map
 
 /***/ }),
 
@@ -976,7 +1051,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "@media screen and (min-width: 1280px) {\r\n  .product-card.left {\r\n    background-position: left center;\r\n  }\r\n\r\n  .product-card.right {\r\n    background-position: right center;\r\n  }\r\n\r\n  .product-card {\r\n    margin-bottom: 4rem;\r\n    min-height: 450px;\r\n  }\r\n\r\n  .product-card .content {\r\n    background-color: #2a2a2a;\r\n    padding: 20px;\r\n    width: 35%;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 1280px) {\r\n  .product-card.left {\r\n    background-position: -25% center;\r\n  }\r\n\r\n  .product-card.right {\r\n    background-position: 125% center;\r\n  }\r\n\r\n  .product-card {\r\n    margin-bottom: 2.5rem;\r\n    min-height: 450px;\r\n  }\r\n\r\n  .product-card .content {\r\n    opacity: 0.80;\r\n    background-color: #000;\r\n    padding: 20px;\r\n    width: 45%;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 860px) {\r\n  .product-card.left {\r\n    background-position: calc(-50% - 75px) center;\r\n  }\r\n\r\n  .product-card.right {\r\n    background-position: calc(150% + 75px) center;\r\n  }\r\n\r\n  .product-card {\r\n    min-height: 400px;\r\n  }\r\n\r\n  .product-card .content {\r\n    width: 60%;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 640px) {\r\n  .product-card.left {\r\n    background-position: calc(-75% - 100px) center;\r\n  }\r\n\r\n  .product-card.right {\r\n    background-position: calc(175% + 100px) center;\r\n  }\r\n\r\n  .product-card .content {\r\n    padding: 10px;\r\n  }\r\n}\r\n\r\n.product-card {\r\n  position: relative;\r\n  text-align: left;\r\n  background-color: #d1d5d6;\r\n  background-size: contain;\r\n  background-repeat: no-repeat;\r\n}\r\n\r\n.product-card h2 {\r\n  text-transform: uppercase;\r\n}\r\n\r\n.product-card .content {\r\n  position: absolute;\r\n  height: auto;\r\n  top: 0;\r\n  bottom: 0;\r\n}\r\n\r\n.product-card.left .content {\r\n  right: 0;\r\n  border-radius: 0 2px 2px 0;\r\n}\r\n\r\n.product-card.right .content {\r\n  left: 0;\r\n  border-radius: 2px 0 0 2px;\r\n}\r\n\r\n.product-card .content .description {\r\n  height: 100%;\r\n  opacity: 1;\r\n  color: #fff;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -webkit-box-align: stretch;\r\n      -ms-flex-align: stretch;\r\n          align-items: stretch;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n}\r\n", ""]);
+exports.push([module.i, "@media screen and (min-width: 1280px) {\r\n  .product-card.left {\r\n    background-position: left center;\r\n  }\r\n\r\n  .product-card.right {\r\n    background-position: right center;\r\n  }\r\n\r\n  .product-card {\r\n    margin-bottom: 4rem;\r\n    min-height: 450px;\r\n  }\r\n\r\n  .product-card .content {\r\n    background-color: #2a2a2a;\r\n    padding: 20px;\r\n    width: 35%;\r\n\ttransition: all 0.25s linear;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 1280px) {\r\n  .product-card.left {\r\n    background-position: -25% center;\r\n  }\r\n\r\n  .product-card.right {\r\n    background-position: 125% center;\r\n  }\r\n\r\n  .product-card {\r\n    margin-bottom: 2.5rem;\r\n    min-height: 450px;\r\n  }\r\n\r\n  .product-card .content {\r\n    opacity: 0.80;\r\n    background-color: #000;\r\n    padding: 20px;\r\n    width: 45%;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 860px) {\r\n  .product-card.left {\r\n    background-position: calc(-50% - 75px) center;\r\n  }\r\n\r\n  .product-card.right {\r\n    background-position: calc(150% + 75px) center;\r\n  }\r\n\r\n  .product-card {\r\n    min-height: 400px;\r\n  }\r\n\r\n  .product-card .content {\r\n    width: 60%;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 640px) {\r\n  .product-card.left {\r\n    background-position: calc(-75% - 100px) center;\r\n  }\r\n\r\n  .product-card.right {\r\n    background-position: calc(175% + 100px) center;\r\n  }\r\n\r\n  .product-card .content {\r\n    padding: 10px;\r\n  }\r\n}\r\n\r\n.product-card {\r\n  position: relative;\r\n  text-align: left;\r\n  background-color: #d1d5d6;\r\n  background-size: contain;\r\n  background-repeat: no-repeat;\r\n}\r\n\r\n.product-card h2 {\r\n  text-transform: uppercase;\r\n}\r\n\r\n.product-card .content {\r\n  position: absolute;\r\n  height: auto;\r\n  top: 0;\r\n  bottom: 0;\r\n}\r\n\r\n.product-card.left .content {\r\n  right: 0;\r\n  border-radius: 0 2px 2px 0;\r\n}\r\n\r\n.product-card.right .content {\r\n  left: 0;\r\n  border-radius: 2px 0 0 2px;\r\n}\r\n\r\n.product-card .content .description {\r\n  height: 100%;\r\n  opacity: 1;\r\n  color: #fff;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -webkit-box-align: stretch;\r\n      -ms-flex-align: stretch;\r\n          align-items: stretch;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n}\r\n", ""]);
 
 // exports
 

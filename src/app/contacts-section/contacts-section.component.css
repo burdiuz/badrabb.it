@@ -1,0 +1,17 @@
+.contact-link {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.contact-link a,.contact-link a:visited {
+  font-size: 0.8rem;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #666;
+  font-weight: 300;
+  margin-left: 1rem;
+}
+
+.contact-link a:hover {
+  text-decoration-color: #ccc;
+}
