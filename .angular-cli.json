@@ -1,17 +1,15 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "badrabb.it"
+    "name": "badrabbit"
   },
   "apps": [
     {
       "root": "src",
-      "outDir": "docs",
+      "outDir": "dist",
       "assets": [
-        "api",
         "assets",
-        "favicon.ico",
-        "CNAME"
+        "favicon.ico"
       ],
       "index": "index.html",
       "main": "main.ts",

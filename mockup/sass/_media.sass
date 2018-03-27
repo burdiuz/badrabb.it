@@ -1,0 +1,72 @@
+@import "bourbon"
+
+/*==========	Desktop First Method	==========*/
+
+@media only screen and (max-width: 1200px)
+	.products
+		.products__items
+			.products__item
+				.image_wrap
+					max-height: initial
+					a
+						height: auto
+						img
+							height: auto
+
+@media only screen and (max-width: 992px)
+	h1
+		font-size: 32px
+		line-height: 40px
+	h2
+		font-size: 32px
+	.where_wraps
+		flex-wrap: wrap
+	.where
+		width: 100%
+	.contacts
+		width: 100%
+	.products
+		.products__items
+			.products__item
+				.text_wrap
+					.description
+						display: none
+@media only screen and (max-width: 767px)
+	.products
+		.products__items
+			.products__item
+				flex-wrap: wrap
+				.text_wrap
+					width: 100%
+				.image_wrap
+					width: 100%
+					order: -1
+
+@media only screen and (max-width: 480px)
+	.products
+		.products__items
+			.products__item
+				.text_wrap
+					.title
+						font-size: 18px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px)
+	/* */
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	.visible-xs
+		display: none !important
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	.visible_sm
+		display: none 
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
