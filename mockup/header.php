@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Badabbit</title>
+	<title>Badrabbit</title>
 	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -44,11 +44,11 @@
 			<div class="header__wrap">
 				<nav class="menu header__menu" style="">
 					<ul>
-						<li><a href="/Bababbit/">Home</a></li>
+						<li><a href="/">Home</a></li>
 						<li><a href="about.php">About us</a></li>
-						<li><a href="/Bababbit/#products">Products</a></li>
-						<li><a href="/Bababbit/#where">Where to buy?</a></li>
-						<li><a href="/Bababbit/#contacts">Contacts</a></li>
+						<li><a href="/#products">Products</a></li>
+						<li><a href="/#where">Where to buy?</a></li>
+						<li><a href="/#contacts">Contacts</a></li>
 					</ul>
 				</nav>
 			</div>

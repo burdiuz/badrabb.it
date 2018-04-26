@@ -1,0 +1,14 @@
+.two-columns-section {
+  display: flex;
+}
+
+:host ::ng-deep .two-columns-section > * {
+  flex: 1 0 50%;
+}
+
+@media only screen and (max-width: 992px) {
+  :host ::ng-deep .two-columns-section {
+    flex-wrap: wrap;
+    flex: 1;
+  }
+}

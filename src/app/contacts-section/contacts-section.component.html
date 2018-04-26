@@ -1,7 +1,7 @@
 <localized-section label="contacts">
   <ng-container *ngFor="let type of contacts">
-    <div class="contact-link">
-      <h5 [translate]="getContactTitleMark(type)"></h5>
+    <div class="item">
+      <div class="text" [translate]="getContactTitleMark(type)"></div>
       <a [href]="getContactHrefMark(type) | translate" [translate]="getContactContentMark(type)"></a>
     </div>
   </ng-container>

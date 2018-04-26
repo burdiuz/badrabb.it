@@ -7,6 +7,9 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class PageSectionComponent implements OnInit {
 
+
+  @Input() className: string;
+  @Input() id: string;
   @Input() anchor: string;
   @Input() title: string;
 
@@ -14,6 +17,14 @@ export class PageSectionComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  get containerClassName(): string {
+    return this.className || this.anchor || '';
+  }
+
+  get containerId(): string {
+    return this.id || this.anchor || '';
   }
 
 }
