@@ -8,20 +8,22 @@ import { PreloaderComponent } from './preloader/preloader.component';
 import { MobileMenuToggleComponent } from './mobile-menu-toggle/mobile-menu-toggle.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { ProductsPageComponent } from './pages/products-page/products-page.component';
-import { ProductPageComponent } from './pages/product-page/product-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { ContactsPageComponent } from './pages/contacts-page/contacts-page.component';
 import { WhereToBuyPageComponent } from './pages/where-to-buy-page/where-to-buy-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { TwoColumnsSectionComponent } from './two-columns-section/two-columns-section.component';
+import { ProductDetailPageComponent } from './product-detail-page/product-detail-page.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'products', component: HomePageComponent },
-  { path: 'item/:id/:name', component: ProductPageComponent },
+  { path: 'product/:id/:name', component: ProductDetailPageComponent },
+  { path: 'product/:id', component: ProductDetailPageComponent },
   { path: 'about', component: HomePageComponent },
   { path: 'where', component: HomePageComponent },
   { path: 'contacts', component: HomePageComponent },
+  { path: '**',   redirectTo: '' }
 ];
 
 @NgModule({
@@ -31,12 +33,12 @@ const routes: Routes = [
     MobileMenuToggleComponent,
     AppHeaderComponent,
     ProductsPageComponent,
-    ProductPageComponent,
+    ProductDetailPageComponent,
     AboutPageComponent,
     ContactsPageComponent,
     WhereToBuyPageComponent,
     HomePageComponent,
-    TwoColumnsSectionComponent
+    TwoColumnsSectionComponent,
   ],
   imports: [
     BrowserModule,

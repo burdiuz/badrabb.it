@@ -16,15 +16,24 @@ gulp.task('browser-sync', ['styles', 'inject', 'scripts', 'common'], function() 
 });
 
 gulp.task('styles', function () {
-	return gulp.src('sass/*.sass')
-	.pipe(sass({
-		includePaths: require('node-bourbon').includePaths
-	}).on('error', sass.logError))
-	.pipe(rename({suffix: '.min', prefix : ''}))
-	.pipe(autoprefixer({browsers: ['last 15 versions'], cascade: false}))
-	.pipe(cleanCSS())
-	.pipe(gulp.dest('css'))
-	.pipe(browserSync.stream());
+  return gulp.src('sass/*.sass')
+    .pipe(sass({
+      includePaths: require('node-bourbon').includePaths
+    }).on('error', sass.logError))
+    .pipe(rename({suffix: '.min', prefix : ''}))
+    .pipe(autoprefixer({browsers: ['last 15 versions'], cascade: false}))
+    .pipe(cleanCSS())
+    .pipe(gulp.dest('css'))
+    .pipe(browserSync.stream());
+});
+
+gulp.task('build-styles', function () {
+  return gulp.src('sass/*.sass')
+    .pipe(sass({
+      includePaths: require('node-bourbon').includePaths
+    }).on('error', sass.logError))
+    .pipe(autoprefixer({browsers: ['last 15 versions'], cascade: false}))
+    .pipe(gulp.dest('css'));
 });
 
 gulp.task('inject', function () {
