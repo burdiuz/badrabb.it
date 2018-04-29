@@ -1,5 +1,8 @@
-<div id="{{containerId}}" class="page-section {{containerClassName}}">
-  <a name="{{anchor}}"></a>
-  <h2 *ngIf="title">{{title}}</h2>
-  <ng-content></ng-content>
-</div>
+<section id="{{containerId}}" class="page-section {{containerClassName}}">
+  <div class="container">
+    <h2>Products</h2>
+    <a name="{{anchor}}"></a>
+    <h2 *ngIf="title">{{title}}</h2>
+    <ng-content></ng-content>
+  </div>
+</section>

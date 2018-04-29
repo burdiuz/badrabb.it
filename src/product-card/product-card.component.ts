@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'product-card',
@@ -7,6 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ProductCardComponent implements OnInit {
 
+  @Input() id: string;
   @Input() position: string;
   @Input() imageUrl: string;
   @Input() type: string;
@@ -20,8 +21,8 @@ export class ProductCardComponent implements OnInit {
 
   }
 
-  get backgroundImageUrl() {
-    return `url("${this.imageUrl}")`;
+  get productUrl() {
+    return `/#/product/${this.id}/${this.type}-${this.subType}`;
   }
 
 }

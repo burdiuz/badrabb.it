@@ -2,10 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {HttpClientModule, HttpClient} from '@angular/common/http';
-import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
-import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 
 import { AppComponent } from './app.component';
@@ -13,6 +13,14 @@ import { PreloaderComponent } from './preloader/preloader.component';
 import { MobileMenuToggleComponent } from './mobile-menu-toggle/mobile-menu-toggle.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { ProductsPageComponent } from './pages/products-page/products-page.component';
+import { LocalizedProductCardComponent } from './localized-product-card/localized-product-card.component';
+import { ProductsSectionComponent } from './products-section/products-section.component';
+import { ContactsSectionComponent } from './contacts-section/contacts-section.component';
+import { LocalizedSectionComponent } from './localized-section/localized-section.component';
+import { PageSectionComponent } from '../page-section/page-section.component';
+import { PageComponent } from '../page/page.component';
+
+import { ProductCardComponent } from '../product-card/product-card.component';
 import { ContactsPageComponent } from './pages/contacts-page/contacts-page.component';
 import { WhereToBuyPageComponent } from './pages/where-to-buy-page/where-to-buy-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
@@ -31,7 +39,7 @@ const routes: Routes = [
   { path: 'about', component: TextPageComponent },
   { path: 'where', component: HomePageComponent },
   { path: 'contacts', component: HomePageComponent },
-  { path: '**',   redirectTo: '' }
+  { path: '**', redirectTo: '' }
 ];
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -53,6 +61,12 @@ const TranslateModuleImpl = TranslateModule.forRoot({
     MobileMenuToggleComponent,
     AppHeaderComponent,
     ProductsPageComponent,
+    ProductsSectionComponent,
+    LocalizedProductCardComponent,
+    ContactsSectionComponent,
+    LocalizedSectionComponent,
+    ProductCardComponent,
+    PageSectionComponent,
     ProductDetailPageComponent,
     ContactsPageComponent,
     WhereToBuyPageComponent,

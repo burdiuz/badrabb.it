@@ -11,7 +11,6 @@ export class HtmlPipe implements PipeTransform {
   }
 
   transform(value: string, args?: any): any {
-    console.log(value);
     return this._sanitizer.bypassSecurityTrustHtml(value);
   }
 
