@@ -1,0 +1,23 @@
+{
+	"id": 5,
+	"promo": {
+		"iconUrl": "/assets/products/pre_shave_oil_01.jpg",
+		"originalUrl": "/assets/products/pre_shave_oil_01.jpg"
+	},
+	"images": [
+		{
+			"iconUrl": "/assets/products/pre_shave_oil_01.jpg",
+			"originalUrl": "/assets/products/pre_shave_oil_01.jpg"
+		}
+	],
+	"en-US": {
+		"type": "PRE SHAVE OIL",
+		"subType": "",
+		"description": ""
+	},
+	"ru-RU": {
+		"type": "PRE SHAVE OIL",
+		"subType": "",
+		"description": ""
+	}
+}

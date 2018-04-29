@@ -30,6 +30,7 @@ import { TextPageComponent } from './pages/text-page/text-page.component';
 import { TextPageService } from '../text-page.service';
 import { ProductsService } from '../products.service';
 import { HtmlPipe } from '../html.pipe';
+import { LogoSectionComponent } from './logo-section/logo-section.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -74,6 +75,7 @@ const TranslateModuleImpl = TranslateModule.forRoot({
     TwoColumnsSectionComponent,
     TextPageComponent,
     HtmlPipe,
+    LogoSectionComponent,
   ],
   imports: [
     BrowserModule,

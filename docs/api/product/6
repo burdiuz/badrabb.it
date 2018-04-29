@@ -1,0 +1,27 @@
+{
+	"id": 6,
+	"promo": {
+		"iconUrl": "/assets/products/beard_oil_01.jpg",
+		"originalUrl": "/assets/products/beard_oil_01.jpg"
+	},
+	"images": [
+    {
+      "iconUrl": "/assets/products/beard_oil_01.jpg",
+      "originalUrl": "/assets/products/beard_oil_01.jpg"
+    },
+    {
+      "iconUrl": "/assets/products/beard_oil_02.jpg",
+      "originalUrl": "/assets/products/beard_oil_02.jpg"
+    }
+	],
+	"en-US": {
+		"type": "BEARD OIL",
+		"subType": "",
+		"description": ""
+	},
+	"ru-RU": {
+		"type": "BEARD OIL",
+		"subType": "",
+		"description": ""
+	}
+}

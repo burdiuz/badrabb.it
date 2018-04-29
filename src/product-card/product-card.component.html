@@ -1,15 +1,15 @@
 <div class="products__item">
   <div class="image_wrap" *ngIf="position === 'left'">
-    <a href="{imageUrl}" data-fancybox=""><img src="{imageUrl}" alt="{type}/{subType}"></a>
+    <a href="{{imageUrl}}" data-fancybox=""><img src="{{imageUrl}}" alt="{{type}} - {{subType}}"></a>
   </div>
   <div class="text_wrap">
-    <a href="{productUrl}" class="title">Hair clay medium hold 2.8oz(80gr)</a>
-    <div class="price">Price: 14$</div>
+    <a href="{{productUrl}}" class="title">{{subType}}</a>
+    <div class="price">{{type}}</div>
     <div class="description" [innerHTML]="description"></div>
     <ng-content></ng-content>
-    <a href="{productUrl}" class="show_more">More...</a>
+    <a href="{{productUrl}}" class="show_more">More...</a>
   </div>
   <div class="image_wrap" *ngIf="position === 'right'">
-    <a href="{imageUrl}" data-fancybox=""><img src="{imageUrl}" alt="{type}/{subType}"></a>
+    <a href="{{imageUrl}}" data-fancybox=""><img src="{{imageUrl}}" alt="{{type}} - {{subType}}"></a>
   </div>
 </div>

@@ -1,0 +1,56 @@
+{
+  "@@language": {
+    "en-US": {
+      "abbr": "EN",
+      "title": "English",
+      "icon": "/assets/flags/us.svg"
+    },
+    "ru-RU": {
+      "abbr": "РУС",
+      "title": "Русский",
+      "icon": "/assets/flags/ru.svg"
+    }
+  },
+  "@@section": {
+    "coming": "Coming soon...",
+    "products": {
+      "title": "Products",
+      "link": "Products"
+    },
+    "wheretobuy": {
+      "title": "Where to buy?",
+      "link": "Where to buy?"
+    },
+    "contacts": {
+      "title": "Contacts",
+      "link": "Contacts"
+    }
+  },
+  "@@contacts": {
+    "instagram": {
+      "title": "Instagram",
+      "content": "instagram.com/bad.rabbit.official",
+      "href": "https://www.instagram.com/bad.rabbit.official/"
+    },
+    "facebook": {
+      "title": "Facebook",
+      "content": "facebook.com/bad.rabbit.official",
+      "href": "https://www.facebook.com/bad.rabbit.official/"
+    },
+    "twitter": {
+      "title": "Twitter",
+      "content": "twitter.com/BadRabbitNL",
+      "href": "https://twitter.com/BadRabbitNL/"
+    },
+    "email": {
+      "title": "Email",
+      "content": "bad.rabbit.cosmetic@gmail.com",
+      "href": "mailto:bad.rabbit.cosmetic@gmail.com"
+    },
+    "phone": {
+      "title": "Phone",
+      "content": "+380686906833",
+      "href": "callto:+380686906833"
+    }
+  }
+}
