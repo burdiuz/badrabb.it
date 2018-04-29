@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 
 import { AppComponent } from './app.component';
@@ -14,13 +15,16 @@ import { WhereToBuyPageComponent } from './pages/where-to-buy-page/where-to-buy-
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { TwoColumnsSectionComponent } from './two-columns-section/two-columns-section.component';
 import { ProductDetailPageComponent } from './product-detail-page/product-detail-page.component';
+import { TextPageComponent } from './text-page/text-page.component';
+import { TextPageService } from '../text-page.service';
+import { ProductsService } from '../products.service';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'products', component: HomePageComponent },
   { path: 'product/:id/:name', component: ProductDetailPageComponent },
   { path: 'product/:id', component: ProductDetailPageComponent },
-  { path: 'about', component: HomePageComponent },
+  { path: 'about', component: AboutPageComponent },
   { path: 'where', component: HomePageComponent },
   { path: 'contacts', component: HomePageComponent },
   { path: '**',   redirectTo: '' }
@@ -39,12 +43,18 @@ const routes: Routes = [
     WhereToBuyPageComponent,
     HomePageComponent,
     TwoColumnsSectionComponent,
+    TextPageComponent,
   ],
   imports: [
     BrowserModule,
+    TranslateModule,
     RouterModule.forRoot(routes, { useHash: true }),
   ],
-  providers: [],
+  providers: [
+    TextPageService,
+    ProductsService,
+    TranslateService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
