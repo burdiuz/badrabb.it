@@ -3,11 +3,11 @@
     <a href="{{imageUrl}}" data-fancybox=""><img src="{{imageUrl}}" alt="{{type}} - {{subType}}"></a>
   </div>
   <div class="text_wrap">
-    <a href="{{productUrl}}" class="title">{{subType}}</a>
-    <div class="price">{{type}}</div>
+    <a href="{{productUrl}}" class="title">{{subType || type}}</a>
+    <div class="price" *ngIf="subType">{{type}}</div>
     <div class="description" [innerHTML]="description"></div>
     <ng-content></ng-content>
-    <a href="{{productUrl}}" class="show_more">More...</a>
+    <a href="{{productUrl}}" class="show_more" *ngIf="description">More...</a>
   </div>
   <div class="image_wrap" *ngIf="position === 'right'">
     <a href="{{imageUrl}}" data-fancybox=""><img src="{{imageUrl}}" alt="{{type}} - {{subType}}"></a>

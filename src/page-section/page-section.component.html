@@ -1,6 +1,9 @@
-<section id="{{containerId}}" class="page-section {{containerClassName}}">
-  <div class="container">
-    <a name="{{anchor}}"></a>
+<section
+  id="{{containerId}}"
+  class="page-section {{containerClassName}}"
+  [attr.data-link-target]="'#/' + anchor"
+>
+  <div [class]="isContainer ? 'container' : ''">
     <h2 *ngIf="title">{{title}}</h2>
     <ng-content></ng-content>
   </div>

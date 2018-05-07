@@ -2595,6 +2595,9 @@
     width: 20px;
     height: 20px; }
 
+.two-columns-section > * {
+  padding-bottom: 40px; }
+
 /*==========	Desktop First Method	==========*/
 @media only screen and (max-width: 1200px) {
   .products .products__items .products__item .image_wrap {
@@ -2609,6 +2612,7 @@
     font-size: 32px;
     line-height: 40px; }
   h2 {
+    text-align: left;
     font-size: 32px; }
   .where_wraps {
     -webkit-flex-wrap: wrap;

@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'localized-section',
@@ -8,6 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
 export class LocalizedSectionComponent implements OnInit {
 
   @Input() label: string;
+  @Input() isContainer: boolean = true;
 
   constructor() {
   }
@@ -15,7 +16,7 @@ export class LocalizedSectionComponent implements OnInit {
   ngOnInit() {
   }
 
-  getTitleLocalizationMark () {
+  getTitleLocalizationMark() {
     return `@@section.${this.label}.title`;
   }
 

@@ -1,13 +1,13 @@
 <header>
-  <div class="container">
+  <div class="container" data-link-target="#/">
     <div class="header__wrap">
       <nav class="menu header__menu" style="">
         <ul>
-          <li><a [routerLink]="['']">Home</a></li>
-          <li><a [routerLink]="['about']">About us</a></li>
-          <li><a [routerLink]="['products']">Products</a></li>
-          <li><a [routerLink]="['where']">Where to buy?</a></li>
-          <li><a [routerLink]="['contacts']">Contacts</a></li>
+          <li><a [routerLink]="['']" (click)="onMenuItemClick()">Home</a></li>
+          <li><a [routerLink]="['about']" (click)="onMenuItemClick()">About us</a></li>
+          <li><a [routerLink]="['products']" (click)="onMenuItemClick()">Products</a></li>
+          <li><a [routerLink]="['where']" (click)="onMenuItemClick()">Where to buy?</a></li>
+          <li><a [routerLink]="['contacts']" (click)="onMenuItemClick()">Contacts</a></li>
         </ul>
       </nav>
     </div>

@@ -1,19 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewChecked } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TextPageService } from '../../../text-page.service';
 import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
+
+declare const $: (...args: any[]) => any;
 
 @Component({
   selector: 'text-page',
   templateUrl: './text-page.component.html',
   styleUrls: ['./text-page.component.css']
 })
-export class TextPageComponent implements OnInit {
+export class TextPageComponent implements OnInit, AfterViewChecked {
 
   data: any = { title: String, content: String };
   _currentLocale: string;
 
   constructor(private _text: TextPageService, private _route: ActivatedRoute, private _translate: TranslateService) {
+    $(window).scrollTop(0);
   }
 
   ngOnInit() {
@@ -26,6 +29,9 @@ export class TextPageComponent implements OnInit {
     this._translate.onLangChange.subscribe((event: LangChangeEvent) => {
       this._currentLocale = event.lang;
     });
+  }
+
+  ngAfterViewChecked () {
   }
 
   get currentLocale() {

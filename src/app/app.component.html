@@ -4,6 +4,13 @@
 
 <app-header></app-header>
 
-<router-outlet></router-outlet>
+<router-outlet (activate)="onRouteActivate($event)" (deactivate)="onRouteDeactivate($event)"></router-outlet>
 
 <div class="hidden"></div>
+
+<div class="where_wrap">
+  <two-columns-section>
+    <where-to-buy-page data-link-target="#/where"></where-to-buy-page>
+    <contacts-section data-link-target="#/contacts"></contacts-section>
+  </two-columns-section>
+</div>

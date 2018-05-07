@@ -1,7 +1,7 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 
-const CONTACTS = ['twitter', 'facebook', 'instagram', 'email', 'phone'];
+const CONTACTS = ['twitter', 'facebook', 'instagram', 'email'];
 
 @Component({
   selector: 'contacts-section',
@@ -10,6 +10,7 @@ const CONTACTS = ['twitter', 'facebook', 'instagram', 'email', 'phone'];
 })
 export class ContactsSectionComponent implements OnInit {
 
+  @Input() isContainer: boolean = false;
   public contacts: Array<string>;
 
   constructor() {

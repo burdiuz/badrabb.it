@@ -9,28 +9,29 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 
 import { AppComponent } from './app.component';
-import { PreloaderComponent } from './preloader/preloader.component';
-import { MobileMenuToggleComponent } from './mobile-menu-toggle/mobile-menu-toggle.component';
-import { AppHeaderComponent } from './app-header/app-header.component';
-import { ProductsPageComponent } from './pages/products-page/products-page.component';
-import { LocalizedProductCardComponent } from './localized-product-card/localized-product-card.component';
-import { ProductsSectionComponent } from './products-section/products-section.component';
-import { ContactsSectionComponent } from './contacts-section/contacts-section.component';
-import { LocalizedSectionComponent } from './localized-section/localized-section.component';
-import { PageSectionComponent } from '../page-section/page-section.component';
-import { PageComponent } from '../page/page.component';
-
-import { ProductCardComponent } from '../product-card/product-card.component';
-import { ContactsPageComponent } from './pages/contacts-page/contacts-page.component';
-import { WhereToBuyPageComponent } from './pages/where-to-buy-page/where-to-buy-page.component';
-import { HomePageComponent } from './pages/home-page/home-page.component';
-import { TwoColumnsSectionComponent } from './two-columns-section/two-columns-section.component';
-import { ProductDetailPageComponent } from './pages/product-detail-page/product-detail-page.component';
-import { TextPageComponent } from './pages/text-page/text-page.component';
+import PreloaderComponent from './preloader';
+import MobileMenuToggleComponent from './mobile-menu-toggle';
+import AppHeaderComponent from './app-header';
+import LocalizedProductCardComponent from './localized-product-card';
+import ProductCardComponent from '../product-card';
 import { TextPageService } from '../text-page.service';
 import { ProductsService } from '../products.service';
 import { HtmlPipe } from '../html.pipe';
-import { LogoSectionComponent } from './logo-section/logo-section.component';
+
+import ProductsSectionComponent from './sections/products-section';
+import ContactsSectionComponent from './sections/contacts-section';
+import LocalizedSectionComponent from './sections/localized-section';
+import PageSectionComponent from '../page-section';
+import TwoColumnsSectionComponent from './sections/two-columns-section';
+import LogoSectionComponent from './sections/logo-section';
+
+import PageComponent from '../page';
+import ContactsPageComponent from './pages/contacts-page';
+import WhereToBuyPageComponent from './pages/where-to-buy-page';
+import HomePageComponent from './pages/home-page';
+import ProductDetailPageComponent from './pages/product-detail-page';
+import TextPageComponent from './pages/text-page';
+import ProductsPageComponent from './pages/products-page';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -74,8 +75,8 @@ const TranslateModuleImpl = TranslateModule.forRoot({
     HomePageComponent,
     TwoColumnsSectionComponent,
     TextPageComponent,
-    HtmlPipe,
     LogoSectionComponent,
+    HtmlPipe,
   ],
   imports: [
     BrowserModule,

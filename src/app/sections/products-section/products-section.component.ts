@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {ProductsService} from '../../products.service';
+import {ProductsService} from '../../../products.service';
 import {LangChangeEvent, TranslateService} from '@ngx-translate/core';
 
 @Component({

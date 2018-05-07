@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'page-section',
@@ -12,6 +12,7 @@ export class PageSectionComponent implements OnInit {
   @Input() id: string;
   @Input() anchor: string;
   @Input() title: string;
+  @Input() isContainer: boolean = true;
 
   constructor() {
   }
