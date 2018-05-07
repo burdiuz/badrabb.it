@@ -1,11 +1,16 @@
-<page>
-  <toolbar></toolbar>
+<preloader></preloader>
 
-  <products-section></products-section>
+<mobile-menu-toggle></mobile-menu-toggle>
 
-  <localized-section label="wheretobuy">
-    <h5 translate style="margin-bottom: 5rem;">@@section.coming</h5>
-  </localized-section>
+<app-header></app-header>
 
-  <contacts-section></contacts-section>
-</page>
+<router-outlet (activate)="onRouteActivate($event)" (deactivate)="onRouteDeactivate($event)"></router-outlet>
+
+<div class="hidden"></div>
+
+<div class="where_wrap">
+  <two-columns-section>
+    <where-to-buy-page data-link-target="#/where"></where-to-buy-page>
+    <contacts-section data-link-target="#/contacts"></contacts-section>
+  </two-columns-section>
+</div>

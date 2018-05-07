@@ -44,13 +44,8 @@
     },
     "email": {
       "title": "Email",
-      "content": "bad.rabbit.cosmetic@gmail.com",
-      "href": "mailto:bad.rabbit.cosmetic@gmail.com"
-    },
-    "phone": {
-      "title": "Телефон",
-      "content": "+380686906833",
-      "href": "callto:+380686906833"
+      "content": "badrabbitcosm@gmail.com",
+      "href": "mailto:badrabbitcosm@gmail.com"
     }
   }
 }

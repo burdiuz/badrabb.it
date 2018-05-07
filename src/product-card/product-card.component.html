@@ -1,14 +1,15 @@
-<md-card
-  [ngClass]="['product-card', position]"
-  [ngStyle]="{'background-image': backgroundImageUrl}">
-  <div class="content">
-    <div class="description">
-      <div class="headline">
-        <h2>{{type}}</h2>
-        <h3 *ngIf="subType">{{subType}}</h3>
-      </div>
-      <div class="textline" [innerHTML]="description"></div>
-      <ng-content></ng-content>
-    </div>
+<div class="products__item">
+  <div class="image_wrap" *ngIf="position === 'left'">
+    <a href="{{imageUrl}}" data-fancybox=""><img src="{{imageUrl}}" alt="{{type}} - {{subType}}"></a>
   </div>
-</md-card>
+  <div class="text_wrap">
+    <a href="{{productUrl}}" class="title">{{subType || type}}</a>
+    <div class="price" *ngIf="subType">{{type}}</div>
+    <div class="description" [innerHTML]="description"></div>
+    <ng-content></ng-content>
+    <a href="{{productUrl}}" class="show_more" *ngIf="description">More...</a>
+  </div>
+  <div class="image_wrap" *ngIf="position === 'right'">
+    <a href="{{imageUrl}}" data-fancybox=""><img src="{{imageUrl}}" alt="{{type}} - {{subType}}"></a>
+  </div>
+</div>

@@ -1,17 +1,256 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bad Rabbit&reg;</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon"/>
-  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon"/>
-  <link rel="icon" href="/assets/favicon.png" type="image/png"/>
-  <link rel="shortcut icon" href="/assets/favicon.png" type="image/png"/>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400&amp;subset=cyrillic" rel="stylesheet">
-  <base href="/">
+  <title>Badrabbit</title>
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-touch-icon-114x114.png">
+  <base href="/" />
+  <style>
+    a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    ol, ul {
+      list-style: none;
+    }
+
+    blockquote, q {
+      quotes: none;
+    }
+
+    blockquote:after, blockquote:before, q:after, q:before {
+      content: '';
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    html {
+      background-color: #000;
+      min-height: 100%;
+    }
+
+    body {
+      font-size: 16px !important;
+      min-height: 100%;
+      min-width: 320px;
+      position: relative;
+      padding-right: 0 !important;
+      line-height: 1.4 !important;
+      overflow-x: hidden;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
+      color: #fff;
+      margin: 0;
+      background-color: #000;
+    }
+
+    body a {
+      color: #dc041e;
+      text-decoration: none;
+      display: inline-block;
+      -webkit-transition: all .4s;
+      -o-transition: all .4s;
+      transition: all .4s;
+    }
+
+    body a:focus, body a:hover {
+      color: #dc041e !important;
+      text-decoration: none;
+      outline: 0;
+    }
+
+    body :focus {
+      outline: 0;
+    }
+
+    img {
+      vertical-align: middle;
+      border: 0;
+    }
+
+    ::-webkit-input-placeholder {
+      color: #484848;
+    }
+
+    :-moz-placeholder {
+      color: #484848;
+    }
+
+    ::-moz-placeholder {
+      color: #484848;
+    }
+
+    :-ms-input-placeholder {
+      color: #484848;
+    }
+
+    body input:focus:required:invalid, body textarea:focus:required:invalid {
+      color: #484848;
+    }
+
+    body input:required:valid, body textarea:required:valid {
+      color: #484848;
+    }
+
+    h1 {
+      color: #2e2e36;
+      font-size: 48px;
+      font-weight: 700;
+      z-index: 1;
+      position: relative;
+      line-height: 58px;
+      margin-bottom: 20px;
+    }
+
+    h1 span {
+      color: #dc041e;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 40px;
+      font-weight: 100;
+      margin-bottom: 30px;
+    }
+
+    h2 span {
+      color: #dc041e;
+    }
+
+    p {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    ul {
+      margin-bottom: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      list-style: disc inside;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .container.two-columns-section {
+      flex-direction: row;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        width: 750px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        width: 970px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        width: 750px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        width: 970px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px) {
+      .hidden-sm {
+        display: none !important;
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      .hidden-xs {
+        display: none !important;
+      }
+
+      p {
+        text-align: justify;
+      }
+    }
+
+    .click_disable {
+      pointer-events: none;
+    }
+
+    body.open_mobile_menu {
+      overflow: hidden;
+    }
+  </style>
+  <script type="text/javascript" src="assets/js/libs.js"></script>
 </head>
 <body>
-  <app-root></app-root>
+<app-root></app-root>
+<link rel="stylesheet" href="assets/css/main.css" lazyload>
+<link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" lazyload>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" lazyload>
 </body>
 </html>

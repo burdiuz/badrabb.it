@@ -29,7 +29,11 @@ export class LocalizedProductCardComponent implements OnInit {
       return undefined;
     }
     return getLocalizedProperty(this.product, property, this._translation.currentLang);
-  };
+  }
+
+  get id(): string {
+    return this.getProperty('id');
+  }
 
   get imageUrl(): string {
     const promo = this.getProperty('promo');

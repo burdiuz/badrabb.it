@@ -1,0 +1,11 @@
+<div id="product_page" class="product_page">
+  <div class="container">
+    <ng-container *ngFor="let image of images">
+      <a [href]="image.originalUrl" data-fancybox="" class="prod_image">
+        <img [src]="image.iconUrl" alt="" style="width: 400px; max-width: 100%">
+      </a>
+    </ng-container>
+    <h2>{{subType || type}}</h2>
+    <span [innerHTML]="description"></span>
+  </div>
+</div>
