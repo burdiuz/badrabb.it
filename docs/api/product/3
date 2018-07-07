@@ -1,23 +1,23 @@
 {
 	"id": 3,
 	"promo": {
-		"iconUrl": "/assets/products/clay_strong_hold_01.jpg",
-		"originalUrl": "/assets/products/clay_strong_hold_01.jpg"
+		"iconUrl": "/assets/products/pomade_strong_hold_01.jpg",
+    "originalUrl": "/assets/products/pomade_strong_hold_01.jpg"
 	},
 	"images": [
 		{
-			"iconUrl": "/assets/products/clay_strong_hold_01.jpg",
-			"originalUrl": "/assets/products/clay_strong_hold_01.jpg"
+			"iconUrl": "/assets/products/pomade_strong_hold_01.jpg",
+			"originalUrl": "/assets/products/pomade_strong_hold_01.jpg"
 		}
 	],
 	"en-US": {
-		"type": "CLAY",
-		"subType": "STRONG HOLD",
-    "description": "<p>Clay hair product for men by “Bad Rabbit” is created for clients who desire to receive a hairstyle that will firmly hold throughout the day. It is practically unnoticeable on the hair thanks to its matte effect. In addition, as it disentangles the hair, it will be quite easy to change your hairstyle during the day. Just take a little amount of hair clay matte, rub it between your palms and apply on your hair.</p><p>It easily washes off because it is water-based. Hair styling clay by “Bad Rabbit” is your irreplaceable assistant in the creation of inimitable hairstyle!</p><p>The main advantages of the product are:</p><ul><li>does not make the hair heavier</li><li>simply put more clay pomade if you want high hold</li><li>the hairstyle holds its shape during the entire day</li><li>it is possible to apply it on both dry and wet hair</li><li>it has a subtle scent</li><li>the water base allows washing off the clay pomade very easily.</li></ul>"
+		"type": "POMADE",
+		"subType": "Hair pomade strong hold 2.8oz(80gr)",
+		"description": "<h4>Hair pomade that you’ve been dreaming about</h4> <p>Hair pomade for men is already available here and now. This is water-based pomade! Of course, you know what we’re talking about – as you aren’t an amateur in selecting effective remedies for hair styling. You’ve always wanted to make it possible to groom your hair into any style but to do that in a way not to glue it up. Parted hair, punk-style, modern, or office classics – these all are possible now without this horrible effect of gluing, which made you throw one hair remedy after another in the waste bin!</p><p>Our water-based pomade hair thing gives outstanding fixation – better than you might have dreamt about it. Only Hulk and hairspray #5 are stronger. The basis of men hair pomade made of H2O does not have a negative impact on the structure of hair and follicles, allowing your creativity (and individuality) to blossom without damage!</p><p>The matte effect of original pomade will add required temperance to your image, removing the hair shine that bedazzles everyone in a shiny day. In addition, hair with shine caused by grooming substance is only a destiny of those who don’t know a god damn thing about fashion on the threshold of 2010s-2020s. But, since you are reading this text, you definitely do not belong to their cohort.</p><p>What else a modern stylish you need? Just take and possess this pomade matte with a strong hold. And it will answer you with reciprocity!</p>"
 	},
 	"ru-RU": {
-		"type": "CLAY",
-		"subType": "STRONG HOLD",
-    "description": "<p>Clay hair product for men by “Bad Rabbit” is created for clients who desire to receive a hairstyle that will firmly hold throughout the day. It is practically unnoticeable on the hair thanks to its matte effect. In addition, as it disentangles the hair, it will be quite easy to change your hairstyle during the day. Just take a little amount of hair clay matte, rub it between your palms and apply on your hair.</p><p>It easily washes off because it is water-based. Hair styling clay by “Bad Rabbit” is your irreplaceable assistant in the creation of inimitable hairstyle!</p><p>The main advantages of the product are:</p><ul><li>does not make the hair heavier</li><li>simply put more clay pomade if you want high hold</li><li>the hairstyle holds its shape during the entire day</li><li>it is possible to apply it on both dry and wet hair</li><li>it has a subtle scent</li><li>the water base allows washing off the clay pomade very easily.</li></ul>"
+		"type": "ПОМАДА",
+		"subType": "Hair pomade strong hold 2.8oz(80gr)",
+		"description": "<h4>Помада для волос, о которой вы всегда мечтали</h4><p>Hair pomade for men уже доступна здесь и сейчас. Water based pomade! Конечно же, ты знаешь, о чём речь – ведь ты же не дилетант в выборе эффективных средств для укладки. Ты всегда хотел, чтобы волосы можно было уложить в любую причёску, но так, чтобы не склеить свою шевелюру. Пробор, панк-стайл, модерн или офисная классика – всё это доступно, и теперь без того ужасного эффекта склеивания, который заставлял тебя выбрасывать в мусорку одно средство за другим!</p><p>Наша pomade hair на водной основе даёт отличную фиксацию – лучше, чем ты мог мечтать. Сильнее только Халк и лак номер 5. Основа men hair pomade из H2O не имеет негативного влияния на структуру волоса и фолликул, позволяя раскрыться твоему креативу (и индивидуальности) без урона. </p><p>Эффект матовости original pomade дополнит образ нужной сдержанностью, устраняя блеск от причёски, слепящий всех в солнечный день. К тому же, волосы, блестящие нанесённым на них средством – удел тех, кто ни черта не разбирается в моде и красоте на переломе 2010-2020 годов. Но, раз вы читаете этот текст, то вы не из их когорты.</p><p>Что ещё нужно современному, стильному тебе? Просто взять и обладать этой pomade matte со strong hold. И она ответит взаимностью!</p>"
 	}
 }

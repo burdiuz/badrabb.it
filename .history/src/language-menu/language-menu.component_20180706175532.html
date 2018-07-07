@@ -1,14 +1,15 @@
-<div>
+<md-menu #menu="mdMenu">
   <ng-container *ngFor="let code of available;">
     <button
+      md-menu-item
       (click)="changeLang(code)"
       *ngIf="isCurrentLang(code)">
       <img setLocale="{{code}}" style="height: 1rem;">
       <span translate>@@language.{{code}}.title</span>
     </button>
   </ng-container>
-</div>
-<button style="min-width: 40px;">
+</md-menu>
+<button md-button [mdMenuTriggerFor]="menu" style="min-width: 40px;">
   <img locale style="height: 1rem;">
   <span translate>@@language.{{current}}.abbr</span>
 </button>

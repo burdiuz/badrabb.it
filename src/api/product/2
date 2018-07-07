@@ -1,23 +1,23 @@
 {
 	"id": 2,
 	"promo": {
-		"iconUrl": "/assets/products/shaving_soap_01.jpg",
-		"originalUrl": "/assets/products/shaving_soap_01.jpg"
+		"iconUrl": "/assets/products/clay_strong_hold_01.jpg",
+    "originalUrl": "/assets/products/clay_strong_hold_01.jpg"
 	},
 	"images": [
 		{
-			"iconUrl": "/assets/products/shaving_soap_01.jpg",
-			"originalUrl": "/assets/products/shaving_soap_01.jpg"
+			"iconUrl": "/assets/products/clay_strong_hold_01.jpg",
+			"originalUrl": "/assets/products/clay_strong_hold_01.jpg"
 		}
 	],
 	"en-US": {
-		"type": "SHAVING SOAP",
-		"subType": "",
-    "description": "<p>This product is created together with the shaving masters. Its purpose is to moisturize the skin during shaving and to ensure an excellent glide of the blade due to its versatility.</p><p>Very easy to use at home!</p>"
+		"type": "CLAY",
+		"subType": "Hair clay strong hold 2.8oz(80gr)",
+    "description": "<p>Hair clay pomade, for men molding pliable cream, texture, matte finish, medium firm hold, shine free 2.8OZ</p> <p>Do you love your hair? Of course, you do if you are reading this text! And it will respond you with reciprocity, full of tender feelings, if you will give it regular care.</p><br><br><br/><hr/><br/><p>What does “care” mean? Every man of the 21st century has own answer to this question. However, the basic principles stay unchanged:</p><ol><ul><li>hair must be fixed reliably and firmly but along with that, you have to have a possibility to change your hairstyle during the day</ul></li><ul><li>hair must be styled in a way not to bring harm</ul></li><ul><li>the remedy for the hair must be created on the water basis to make it possible to wash it off easily</ul></li><ul><li>your hairstyle must be your friend, not a problem.</ul></li></ol><br/><p>Hair styling clay by Bad Rabbit definitely conforms to all these requirements. Being completely natural, it has a wonderful property of giving the natural shine to the hair – specifically the same soft as nature has given to it. Along with that, your hair will be able to take different styles during the day – as hair clay matte does not dry out completely, becoming a perfect remedy for those men who want to experiment with own look using clay hair product for men.</p><p>Hair styling clay – is giving a matte look with ease and simplicity, with simultaneous thickening of the fiber of the hair. Hair product men with clay is a thing that was created on the water basis and that is why it washes off easily and completely. So that you can use this clay with any other styling stuff at your discretion.</p><p>Try yourself the hairstyling of the next generation, clay pomade matte Bad rabbit: we’re sure you’ll love it!</p>"
 	},
 	"ru-RU": {
-		"type": "SHAVING SOAP",
-		"subType": "",
-    "description": "<p>This product is created together with the shaving masters. Its purpose is to moisturize the skin during shaving and to ensure an excellent glide of the blade due to its versatility.</p><p>Very easy to use at home!</p>"
+		"type": "ГЛИНА",
+		"subType": "Hair clay strong hold 2.8oz(80gr)",
+    "description": "<p>Hair clay pomade, for men molding pliable cream, texture, matte finish, medium firm hold, shine free 2.8OZ</p><br/><p>Вы любите ваши волосы? Конечно же, да, если вы читаете это! И они ответят вам взаимностью, полной нежных чувств, если вы обязуетесь давать им регулярный уход.</p><br/><hr/><br/><p>Что значит «уход»? У каждого мужчины 21 века есть свой ответ на этот вопрос. Но базовые принципы остаются неизменными:</p><ul><li>чтобы волосы фиксировались надёжно и стойко, но одновременно с этим, чтобы укладку можно было изменить по желанию в течение дня;</li><li>укладывать их таким образом, чтобы не наносить вред;</li><li>средство должно быть создано на водной основе, чтобы легко смываться;</li><li>причёска должна быть вашим другом, а не вашей проблемой.</li></ul><br/><p>Всем этим пунктам, несомненно, отвечает hair styling clay Bad Rabbit. Полностью натуральная, она обладает замечательным свойством давать натуральный блеск волосам – именно такой приглушённый, каким их наделила природа. Кроме того, они могут укладываться в разные причёски в течение дня – потому как hair clay matte не высыхает до конца, будучи идеальным средством для тех, кто экспериментирует со своим образом с помощью clay hair product for men.</p><p>Hair styling clay – это матирование, простота и лёгкость, с одновременным утолщением самого fiber волоса. Hair product men в виде глины – это средство, созданное на водной основе, а потому смывается очень легко – и вы поэтому легко можете чередовать глину для волос с любым другим стайлингом по вашему выбору.</p><p>Попробуйте и вы средство нового поколения clay pomade matte Bad rabbit: вам понравится!</p>"
 	}
 }

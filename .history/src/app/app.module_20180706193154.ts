@@ -33,11 +33,6 @@ import { ProductDetailPageComponent } from './pages/product-detail-page/product-
 import { TextPageComponent } from './pages/text-page/text-page.component';
 import { ProductsPageComponent } from './pages/products-page/products-page.component';
 
-import { ImageSetLocaleDirective } from '../image-set-locale.directive';
-import { ImageLocaleDirective } from '../image-locale.directive';
-import { ProductCarouselComponent } from './product-carousel/product-carousel.component';
-import { LanguageMenuComponent } from '../language-menu/language-menu.component';
-
 const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'products', component: HomePageComponent },
@@ -82,11 +77,6 @@ const TranslateModuleImpl = TranslateModule.forRoot({
     TextPageComponent,
     LogoSectionComponent,
     HtmlPipe,
-    PageComponent,
-    ImageSetLocaleDirective,
-    ImageLocaleDirective,
-    ProductCarouselComponent,
-    LanguageMenuComponent,
   ],
   imports: [
     BrowserModule,

@@ -4,34 +4,7 @@
       {
         "id": 1,
         "promo": {
-          "originalUrl": "/assets/products/shampoo_explosive_orange_01.jpg"
-        },
-        "type": "SHAMPOO",
-        "subType": "EXPLOSIVE ORANGE Classic",
-        "description": "<p>Shampoo Explosive orange will cover you with a wave of pleasant aromas and freshness during washing your head. Created specifically for men, given their needs and desires, it is very universal and easy to transport. The main thing, after use, do not leave it on a damp surface!</p>"
-      },
-      {
-        "id": 2,
-        "promo": {
-          "originalUrl": "/assets/products/shaving_soap_01.jpg"
-        },
-        "type": "SHAVING SOAP",
-        "subType": "",
-        "description": "<p>This product is created together with the shaving masters. Its purpose is to moisturize the skin during shaving and to ensure an excellent glide of the blade due to its versatility.</p><p>Very easy to use at home!</p>"
-      },
-      {
-        "id": 3,
-        "promo": {
-          "originalUrl": "/assets/products/clay_strong_hold_01.jpg"
-        },
-        "type": "CLAY",
-        "subType": "STRONG HOLD",
-        "description": "<p>Clay for hair Strong hold has a strong mobile fixation with matting effect. This product is convenient both in work and at home. It can be used for a very long time.</p>"
-      },
-      {
-        "id": 8,
-        "promo": {
-          "originalUrl": "/assets/img/image01.jpg"
+          "originalUrl": "/assets/products/clay_medium_hold_01.jpg"
         },
         "title": "Hair clay medium hold 2.8oz(80gr)",
         "type": "CLAY",
@@ -39,105 +12,96 @@
         "description": "<p>Clay hair product for men by “Bad Rabbit” is created for clients who desire to receive a hairstyle that will firmly hold throughout the day. It is practically unnoticeable on the hair thanks to its matte effect. In addition, as it disentangles the hair, it will be quite easy to change your hairstyle during the day. Just take a little amount of hair clay matte, rub it between your palms and apply on your hair.<br><br>It easily washes off because it is water-based. Hair styling clay by “Bad Rabbit” is your irreplaceable assistant in the creation of inimitable hairstyle!</p>"
       },
       {
+        "id": 2,
+        "promo": {
+          "originalUrl": "/assets/products/clay_strong_hold_01.jpg"
+        },
+        "title": "Hair clay strong hold 2.8oz(80gr)",
+        "type": "CLAY",
+        "subType": "STRONG HOLD",
+        "description": "<p>Hair clay pomade, for men molding pliable cream, texture, matte finish, medium firm hold, shine free 2.8OZ</p> <p>Do you love your hair? Of course, you do if you are reading this text! And it will respond you with reciprocity, full of tender feelings, if you will give it regular care.</p>"
+      },
+      {
+        "id": 3,
+        "promo": {
+          "originalUrl": "/assets/products/pomade_strong_hold_01.jpg"
+        },
+        "title": "Hair pomade strong hold 2.8oz(80gr)",
+        "type": "POMADE",
+        "subType": "STRONG HOLD",
+        "description": "<h4>Hair pomade that you’ve been dreaming about</h4> <p>Hair pomade for men is already available here and now. This is water-based pomade! Of course, you know what we’re talking about – as you aren’t an amateur in selecting effective remedies for hair styling. You’ve always wanted to make it possible to groom your hair into any style but to do that in a way not to glue it up. Parted hair, punk-style, modern, or office classics – these all are possible now without this horrible effect of gluing, which made you throw one hair remedy after another in the waste bin!</p>"
+      },
+      {
         "id": 4,
         "promo": {
-          "originalUrl": "/assets/products/fire_beard_oil_01.jpg"
+          "originalUrl": "/assets/products/hair_comb_01.jpg"
         },
-        "type": "FIRE BEARD OIL",
-        "subType": "",
-        "description": "<p>Fire beard oil improves blood circulation and gently warms the skin, thereby improving the growth and density of hair. Together with this, moisturizes the hair and gives shine. It is applied by massaging movements on a face skin and hair of a beard.</p>"
+        "title": "Steel hair comb",
+        "type": "HAIRBRUSH",
+        "subType": "Steel hair comb",
+        "description": "<p>Feeling of the cold steel on your skin… 31 or whole 48 metallic teeth… They are going for you. They want to dig into, deeper and deeper… into your hair – to raise the quality of hair grooming onto absolutely new level!</p><br/><p>100% stainless steel comb of black color, covered with reliable powder paint with the already recognizable logo of ‘Bad Rabbit’ – that’s a new metallic hit for your hair. Now, grooming has become much easier thanks to those advantages of a man comb:</p><ul><li>this isn’t a plastic – teeth of comb for men do not twist or bend, do not break, and do not get entangled by your hair, even from the long usage</li><li>even the most disobedient and wayward hairs will comb now – they won’t get anywhere from the solid metal of mens grooming comb</li><li>reliable wide body of men’s hair comb, from where teeth are growing, will not bend into the strong arm of yours even if you are doing the punk hairstyle, going against the grain.</li></ul>"
       },
       {
         "id": 5,
         "promo": {
-          "originalUrl": "/assets/products/pre_shave_oil_01.jpg"
+          "originalUrl": "/assets/products/folding_hairbrush_01.jpg"
         },
-        "type": "PRE SHAVE OIL",
-        "subType": "",
-        "description": ""
-      },
-      {
-        "id": 6,
-        "promo": {
-          "originalUrl": "/assets/products/beard_oil_01.jpg"
-        },
-        "type": "BEARD OIL",
-        "subType": "",
-        "description": ""
-      },
-      {
-        "id": 7,
-        "promo": {
-          "originalUrl": "/assets/products/beard_balm_01.jpg"
-        },
-        "type": "BEARD BALM",
-        "subType": "",
-        "description": ""
+        "title": "Folding hairbrush",
+        "type": "HAIRBRUSH",
+        "subType": "Folding hairbrush",
+        "description": "<p>We all know how important this is for a modern man to look at 100%! Wanting to suit the demands of handsome guys, we’ve improved our brainchild – a comb! Now, this isn’t only the beard, hair and mustache comb but also a compact styling device that is convenient for transportation!</p><p>This universal comb has every detail thoroughly elaborated: it is convenient in a hand, comfortable in the application, combs thoroughly and painless. The most important is: wherever you go, men’s grooming device is your reliable and loyal friend, who will turn you within a blink of an eye from a sleepy dude to a handsome fella filled with gloss and chic!</p>"
       }
     ],
     "ru-RU": [
       {
         "id": 1,
         "promo": {
-          "originalUrl": "/assets/products/shampoo_explosive_orange_01.jpg"
+          "originalUrl": "/assets/products/clay_medium_hold_01.jpg"
         },
-        "type": "Шампунь",
-        "subType": "Взрывной апельсин классический",
-        "description": "<p>Шампунь \"Взрывной апельсин\" покроет вас волной приятных ароматов и свежести во время мытья головы. Созданный специально для мужчин, учитывая их потребности и желания, он очень универсален и легко транспортируется. Главное, после использования, не оставляйте его на влажной поверхности!</p>"
+        "title": "Hair clay medium hold 2.8oz(80gr)",
+        "type": "ГЛИНА",
+        "subType": "MEDIUM HOLD",
+        "description": "<p>Clay hair product for men by “Bad Rabbit” is created for clients who desire to receive a hairstyle that will firmly hold throughout the day. It is practically unnoticeable on the hair thanks to its matte effect. In addition, as it disentangles the hair, it will be quite easy to change your hairstyle during the day. Just take a little amount of hair clay matte, rub it between your palms and apply on your hair.<br><br>It easily washes off because it is water-based. Hair styling clay by “Bad Rabbit” is your irreplaceable assistant in the creation of inimitable hairstyle!</p>"
       },
       {
         "id": 2,
         "promo": {
-          "originalUrl": "/assets/products/shaving_soap_01.jpg"
+          "originalUrl": "/assets/products/clay_strong_hold_01.jpg"
         },
-        "type": "Мыло для бритья",
-        "subType": "",
-        "description": "<p>Этот продукт создается совместно с мастерами бритья. Его цель - увлажнить кожу во время бритья и обеспечить отличное скольжение лезвия благодаря своей универсальности.</p><p>Очень прост в использовании дома!</p>"
+        "title": "Hair clay strong hold 2.8oz(80gr)",
+        "type": "ГЛИНА",
+        "subType": "STRONG HOLD",
+        "description": "<p>Hair clay pomade, for men molding pliable cream, texture, matte finish, medium firm hold, shine free 2.8OZ</p><br/><p>Вы любите ваши волосы? Конечно же, да, если вы читаете это! И они ответят вам взаимностью, полной нежных чувств, если вы обязуетесь давать им регулярный уход.</p>"
       },
       {
         "id": 3,
         "promo": {
-          "originalUrl": "/assets/products/clay_strong_hold_01.jpg"
+          "originalUrl": "/assets/products/pomade_strong_hold_01.jpg"
         },
-        "type": "Косметическая глина",
-        "subType": "Сильная фиксация",
-        "description": "<p>Глина для волос \"Сильная фиксация\" имеет сильную подвижную фиксацию с эффектом матирования. Этот продукт удобен как в работе, так и дома. Его можно использовать очень долго.</p>"
+        "title": "Hair pomade strong hold 2.8oz(80gr)",
+        "type": "ПОМАДА",
+        "subType": "STRONG HOLD",
+        "description": "<h4>Помада для волос, о которой вы всегда мечтали</h4><p>Hair pomade for men уже доступна здесь и сейчас. Water based pomade! Конечно же, ты знаешь, о чём речь – ведь ты же не дилетант в выборе эффективных средств для укладки. Ты всегда хотел, чтобы волосы можно было уложить в любую причёску, но так, чтобы не склеить свою шевелюру. Пробор, панк-стайл, модерн или офисная классика – всё это доступно, и теперь без того ужасного эффекта склеивания, который заставлял тебя выбрасывать в мусорку одно средство за другим!</p>"
       },
       {
         "id": 4,
         "promo": {
-          "originalUrl": "/assets/products/fire_beard_oil_01.jpg"
+          "originalUrl": "/assets/products/hair_comb_01.jpg"
         },
-        "type": "Огненное масло для бороды",
-        "subType": "",
-        "description": "<p>Огненное масло для бороды улучшает кровообращение и мягко согревает кожу, тем самым улучшая рост и плотность волос. Вместе с этим увлажняет волосы и придает блеск. Наносится массажными движениями на лицевой поверхности и волосами бороды.</p>"
+        "title": "Steel hair comb",
+        "type": "РАСЧЕСКА",
+        "subType": "Стальной гребень",
+        "description": "<p>Ощущение холодной стали на коже… 31 или даже 48 металлических зубов… Они идут за тобой. Хотят впиться, проникая всё глубже и глубже… в твои волосы, чтобы поднять качество ухода за ними на новый уровень!</p><br/><p>100% stainless steel comb чёрного цвета, покрытая надёжной порошковой краской с узнаваемым уже логотипом ‘Bad Rabbit’ – вот новый металлический хит для твоих волос. Приводить их в порядок теперь станет гораздо легче благодаря таким преимуществам man comb:</p><ul><li>это тебе не plastic – зубцы comb for men не погнутся, не поломаются, не запутаются в волосах, даже от длительного использования</li><li>расчешутся даже самые непослушные или своенравные волоски – никуда они не денутся от металла mens grooming comb</li><li>надёжная широкая основа men’s hair comb, из которой произрастают зубья, не изогнётся в твоей сильной руке, даже если ты делаешь причёску панк-стайл, идя против шерсти.</li></ul>"
       },
       {
         "id": 5,
         "promo": {
-          "originalUrl": "/assets/products/pre_shave_oil_01.jpg"
+          "originalUrl": "/assets/products/folding_hairbrush_01.jpg"
         },
-        "type": "Масло до бритья",
-        "subType": "",
-        "description": ""
-      },
-      {
-        "id": 6,
-        "promo": {
-          "originalUrl": "/assets/products/beard_oil_01.jpg"
-        },
-        "type": "Масло для бороды",
-        "subType": "",
-        "description": ""
-      },
-      {
-        "id": 7,
-        "promo": {
-          "originalUrl": "/assets/products/beard_balm_01.jpg"
-        },
-        "type": "Бальзам для бороды",
-        "subType": "",
-        "description": ""
+        "title": "Folding hairbrush",
+        "type": "РАСЧЕСКА",
+        "subType": "Складная расческа",
+        "description": "<p>Мы знаем, как важно современному мужчине выглядеть на все 100%. Желая соответствовать притязаниям красавцев, мы усовершенствовали своё детище – гребень. Теперь это не просто beard, hair and mustache comb, а компактное и удобное в транспортировке стайлинг-приспособление. </p><p>В этой universal comb продумано всё до мелочей: она удобно лежит в руке, комфортна в применении, прочёсывает тщательно и безболезненно. И самое важное: куда бы вы ни отправились, men’s grooming девайс станет вашим верным и надёжным другом, который в мгновение ока превратит сонного вас в преисполненного лоска и шика красавца!</p>"
       }
     ]
   }

@@ -2478,7 +2478,8 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+	background-color: #fff;	}
     .products .products__items .products__item .text_wrap {
       width: 40%;
       padding: 20px;
@@ -2517,7 +2518,7 @@
       width: 60%;
       max-height: 452px;
       text-align: center;
-      background-color: #fff; }
+       }
       .products .products__items .products__item .image_wrap a {
         max-width: 100%;
         height: 100%;

@@ -1,4 +1,4 @@
-<div>
+<mdmenu>
   <ng-container *ngFor="let code of available;">
     <button
       (click)="changeLang(code)"
@@ -7,7 +7,7 @@
       <span translate>@@language.{{code}}.title</span>
     </button>
   </ng-container>
-</div>
+</mdmenu>
 <button style="min-width: 40px;">
   <img locale style="height: 1rem;">
   <span translate>@@language.{{current}}.abbr</span>

@@ -26,17 +26,12 @@ import { TwoColumnsSectionComponent } from './sections/two-columns-section/two-c
 import { LogoSectionComponent } from './sections/logo-section/logo-section.component';
 
 import { PageComponent } from '../page/page.component';
-import { ContactsPageComponent } from './pages/contacts-page/contacts-page.component';
-import { WhereToBuyPageComponent } from './pages/where-to-buy-page/where-to-buy-page.component';
-import { HomePageComponent } from './pages/home-page/home-page.component';
-import { ProductDetailPageComponent } from './pages/product-detail-page/product-detail-page.component';
-import { TextPageComponent } from './pages/text-page/text-page.component';
-import { ProductsPageComponent } from './pages/products-page/products-page.component';
-
-import { ImageSetLocaleDirective } from '../image-set-locale.directive';
-import { ImageLocaleDirective } from '../image-locale.directive';
-import { ProductCarouselComponent } from './product-carousel/product-carousel.component';
-import { LanguageMenuComponent } from '../language-menu/language-menu.component';
+import ContactsPageComponent from './pages/contacts-page';
+import WhereToBuyPageComponent from './pages/where-to-buy-page';
+import HomePageComponent from './pages/home-page';
+import ProductDetailPageComponent from './pages/product-detail-page';
+import TextPageComponent from './pages/text-page';
+import ProductsPageComponent from './pages/products-page';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -82,11 +77,6 @@ const TranslateModuleImpl = TranslateModule.forRoot({
     TextPageComponent,
     LogoSectionComponent,
     HtmlPipe,
-    PageComponent,
-    ImageSetLocaleDirective,
-    ImageLocaleDirective,
-    ProductCarouselComponent,
-    LanguageMenuComponent,
   ],
   imports: [
     BrowserModule,

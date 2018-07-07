@@ -1,23 +1,23 @@
 {
 	"id": 5,
 	"promo": {
-		"iconUrl": "/assets/products/pre_shave_oil_01.jpg",
-		"originalUrl": "/assets/products/pre_shave_oil_01.jpg"
+	"iconUrl": "/assets/products/folding_hairbrush_01.jpg",
+    "originalUrl": "/assets/products/folding_hairbrush_01.jpg"
 	},
 	"images": [
 		{
-			"iconUrl": "/assets/products/pre_shave_oil_01.jpg",
-			"originalUrl": "/assets/products/pre_shave_oil_01.jpg"
+			"iconUrl": "/assets/products/folding_hairbrush_01.jpg",
+			"originalUrl": "/assets/products/folding_hairbrush_01.jpg"
 		}
 	],
 	"en-US": {
-		"type": "PRE SHAVE OIL",
-		"subType": "",
-		"description": ""
+		"type": "COMB",
+		"subType": "Folding hairbrush",
+		"description": "<p>We all know how important this is for a modern man to look at 100%! Wanting to suit the demands of handsome guys, we’ve improved our brainchild – a comb! Now, this isn’t only the beard, hair and mustache comb but also a compact styling device that is convenient for transportation!</p><p>This universal comb has every detail thoroughly elaborated: it is convenient in a hand, comfortable in the application, combs thoroughly and painless. The most important is: wherever you go, men’s grooming device is your reliable and loyal friend, who will turn you within a blink of an eye from a sleepy dude to a handsome fella filled with gloss and chic!</p><p>Those men, who are adorned with posh vegetation on their face, know that one must try really hard to make this beauty possible. And this isn’t only about the patience that many people lack to grow a beard ‘from scratch.’ The main secret of grooming of all bearded men is that they use universal hair styling  comb. They apply it not less than two times a day, combing it in all directions and styling it with care for not less than 5 minutes. Taking care using stainless steel comb is not only useful from the aesthetical point of view but also thanks to the man comb, the blood flow improves, and the hair owner trains hairs to grow in the needed direction.</p><p>It is obvious that facial and head vegetations are not the same thing. In the first case, hair is thicker and denser, that’s why comb for men shall definitely correspond to certain criteria. For a start, the handle is performed from quality steel (it would seem worthless if a serious men’s grooming comb is made of cheap plastic). Then, the distance between individual teeth must be optimal (to make it easy to comb and separate the thicker hair). Thirdly, good antistatic properties (men’s hair comb definitely doesn’t have to turn the main men’s adornment into unserious ‘dandelion’).</p><p>The real bearded man knows the real price of men’s beard and mustache comb. Grooming metal comb by Bad Rabbit is not only usual massage folding comb that one can leave without business on a bathroom table. This is the real friend and your personal barber, who is always here to help you!</p>"
 	},
 	"ru-RU": {
-		"type": "PRE SHAVE OIL",
-		"subType": "",
-		"description": ""
+		"type": "РАСЧЕСКА",
+		"subType": "Складная расческа",
+		"description": "<p>Мы знаем, как важно современному мужчине выглядеть на все 100%. Желая соответствовать притязаниям красавцев, мы усовершенствовали своё детище – гребень. Теперь это не просто beard, hair and mustache comb, а компактное и удобное в транспортировке стайлинг-приспособление. </p><p>В этой universal comb продумано всё до мелочей: она удобно лежит в руке, комфортна в применении, прочёсывает тщательно и безболезненно. И самое важное: куда бы вы ни отправились, men’s grooming девайс станет вашим верным и надёжным другом, который в мгновение ока превратит сонного вас в преисполненного лоска и шика красавца!</p><p>Мужчины, чьё лицо украшает роскошная растительность, знают: чтобы добиться такой красоты, нужно хорошенько постараться. И дело не только в том, что не у всех хватает выдержки отрастить бороду «с нуля». Главный секрет ухоженности бородачей состоит в том, что они использую universal hair styling comb. И прибегают к нему не менее 2-х раз в день, вычёсывая во всех направлениях и укладывая бережно, не менее 10 минут. Уход с помощью stainless steel comb полезен не только с эстетической точки зрения. Благодаря man comb улучшается кровообращение, и хозяин приучает волосы расти в нужном направлении.</p><p>Очевидно, что растительность на лице и голове – не одно и то же. В первом случае волосы тоще и гуще, потому comb for men должна соответствовать определённым критериям. Во-первых, ручка выполнена из качественной стали (негоже, чтобы серьёзный мужской гребень of mens grooming comb был из дешёвого plastic). Во-вторых, достаточное расстояние между зубцами (для лучшего прочёсывания и разделения более толстых волосинок). В-третьих, антистатические свойства (men’s hair comb уж точно не превратит главное мужское украшение в несерьёзный «одуванчик»).</p><p>Истинный бородач знает настоящую цену мужского mustache comb, гребня для усов и бороды. Grooming comb от Bad Rabbit – это не обычная массажная folding comb, валяющаяся без дела на ванном столике. Это настоящий друг и ваш персональный барбер, который всегда рядом!</p>"
 	}
 }
